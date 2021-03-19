@@ -12,7 +12,7 @@ interface MovieProps {
 }
 interface ContentProps {
   selectedGenre: GenreResponseProps
-  movies: Array<MovieProps>
+  movies: MovieProps[]
 }
 interface GenreResponseProps {
   id: number;

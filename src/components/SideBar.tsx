@@ -8,7 +8,7 @@ interface GenreResponseProps {
 
 interface SideBarProps {
   handleClickButton: (id: number) => void
-  genres: Array<GenreResponseProps>
+  genres: GenreResponseProps[];
   selectedGenreId: number
 }
 
